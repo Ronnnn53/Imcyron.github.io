@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,500&family=Roboto+Slab:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
+      
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x:hidden;
+   
+}
+body{
+    background: linear-gradient(to right, #243B55, #141E30);
+    color:white;
+}
+  
+   
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding:20px 9%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    z-index: 100;
+    background-color:#141E30;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.logo{
+    font-size: 4rem;
+    transition: .3s ease-in-out;
+}
+
+.navbar a{
+    font-size: 1.8rem;
+    color:#faedcd;
+    font-weight:500;
+    margin-left: 3.5rem;
+    transition: .3s ease-out;
+    
+    
+}
+
+.navbar a:hover, .navbar a.active  {
+    color:rgb(246, 0, 0);
+
+}
+
+#expand-horizontal{
+    font-size:3.5rem;
+    color:#faedcd;
+    cursor:pointer;
+    display:none;
+}
+
+
+.home{
+    display: flex;
+    height: 90vh;
+    width:200vh;
+    align-items: center;
+    margin-left:auto;
+    font-size: 25px;
+
+}
+
+.home-content{
+    margin-left:0px;
+
+}
+
+.home-content h1{
+    font-size:3.9rem;
+    color:aqua;
+
+}
+
+.home-content p{
+    font-size:1.4rem;
+}
+
+.img{
+
+    display: flex;
+    margin-left:120px;
+    margin-top:70px;
+}
+
+
+.social{
+    margin:0;
+    position: absolute;
+    left:150px;
+    top:420px;
+    
+}
+
+.social a{
+    color:black;
+    display: inline-flex;
+    justify-content: center;
+    align-items:center;
+    width:4rem;
+    height: 4rem;
+    transition: .4s ease-out;
+}
+
+.social a:hover{
+    color: white;
+}
+
+.btn{
+    margin:0rem;
+    position:absolute;
+    left:100px;
+    top:470px;
+}
+
+.btn a{
+    maring:1rem;
+    padding:0.5rem;
+    border:1px solid black;
+    background-color:aqua;
+    border-radius:15px;
+    color:black;
+}
+
+#download{
+    margin:1rem;
+    color:white;
+}
+
+.btn a:hover{
+    color:white;
+
+}
+
+.about-me{
+    display: flex;
+    margin:1rem;
+    height: 90vh;
+    width:200vh;
+    overflow: hidden;
+}
+.about-me h1{
+    position: absolute;
+    top:785px;
+    left:700px;
+    font-size:4rem;
+    justify-content: center;
+    align-items:center;
+
+}
+.about-me img{
+
+    position:absolute;
+    left:110px;
+    top:890px;
+}
+
+.about-me h2{
+    position:absolute;
+    top:840px;
+    left:680px;
+    font-size:3rem;
+    justify-content: center;
+    align-items:center;
+    color:aqua;
+
+}
+
+.about-me p{
+    position:absolute;
+    justify-content: center;
+    margin:2rem 2rem 2rem 2rem;
+    top:920px;
+    left:600px;
+    font-size:2.4rem;
+}
+
+.skills{
+    display:flex;
+    height: 100vh;
+    width:200vh;
+    overflow: hidden;
+}
+
+.skills h1{
+    position: absolute;
+    top:1400px;
+    left:700px;
+    font-size:4rem;
+    justify-content: center;
+    align-items:center;
+
+}
+
+
+
+
+
+
+.contact{
+    display:flex;
+    height: 100vh;
+    width:200vh;
+    overflow: hidden;
+}
+
+.contact h1{
+    position: absolute;
+    top:2090px;
+    left:700px;
+    font-size:4rem;
+    justify-content: center;
+    align-items:center;
+
+}
